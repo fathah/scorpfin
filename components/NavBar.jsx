@@ -16,7 +16,9 @@ const NavBar = () => {
             {
                 navItems.map((item) => {
                     return (
-                        <a href={item.to} className="mx-4 menu-item">{item.title.toUpperCase()}</a>
+                        <a 
+                        key={navItems.indexOf(item)}
+                        href={item.to} className="mx-4 menu-item">{item.title.toUpperCase()}</a>
                     )
                 })
             }

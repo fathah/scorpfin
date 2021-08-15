@@ -25,6 +25,7 @@ const Products = () => {
                   {
                       products.map(product=>(
                           <div className="lg:flex my-8"
+                          key={products.indexOf(product)}
                           data-aos={
                             products.indexOf(product)%2==0?
                             "fade-right":"fade-left"
