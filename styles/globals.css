@@ -1,16 +1,56 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background-color: #1F232B;
+  color: #fff;
+}
+.bg-primary{
+  background-color: #1F232B;
+}
+.bg-sec{
+  background: #23272F;
+}
+.text-primary{
+  color: #1F232B;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
-
-* {
-  box-sizing: border-box;
+.menu-item {
+  margin-top: -10px;
+  padding-right: 5px;
+  color: #FFF;
+  text-decoration: none;  
+  display: inline-block;
+  cursor: pointer;
+}
+ .menu-item:after {
+  transition: all ease-in-out .2s;
+  background: none repeat scroll 0 0 #fff;
+  content: "";
+  display: block;
+  height: 4px;
+  width: 0;
+}
+.menu-item:hover:after {
+  width: 100%;
 }
