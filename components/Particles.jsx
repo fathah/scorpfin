@@ -4,7 +4,7 @@ const Particle = () => {
     return (
         <>
      <Particles
-	 className="absolute z-10"
+	 className="absolute z-10 h-full w-full"
     params={{
 	    "particles": {
 	        "number": {
