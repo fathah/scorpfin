@@ -11,6 +11,7 @@
 body{
   background-color: #1F232B;
   color: #fff;
+  overflow-x: hidden;
 }
 .bg-primary{
   background-color: #1F232B;
