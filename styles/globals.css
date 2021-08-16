@@ -46,7 +46,7 @@ body{
 }
  .menu-item:after {
   transition: all ease-in-out .2s;
-  background: none repeat scroll 0 0 #fff;
+  background: none repeat scroll 0 0 #f59e0b;
   content: "";
   display: block;
   height: 4px;
@@ -54,4 +54,18 @@ body{
 }
 .menu-item:hover:after {
   width: 100%;
+  
+}
+
+.anim-item {
+  animation: MoveUpDown 5s linear infinite;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }

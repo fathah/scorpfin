@@ -2,6 +2,8 @@
 import Bubble from '@/components/Bubble'
 
 const Products = () => {
+    const gradient = "text-transparent bg-clip-text bg-gradient-to-br from-yellow-500 to-yellow-700";
+
     const products = [
         {"name":"ScorpFolio",
         "description":"ScorpFolio aims to be the leading network for mobile cryptocurrency portfolio tracking management. As a solution, ScorpFolio offers web and mobile application where you can overview and customize your wallets assets portfolio. We have successfully tested our application tool to analyze any wallet with BEP20 tokens.",
@@ -19,8 +21,8 @@ const Products = () => {
     return (
         <section className="bg-sec p-10 lg:px-72">
            <Bubble/>
-              <h1 className="font-bold text-xl lg:text-2xl" data-aos="zoom-in">
-                  Scorp Products</h1>
+              <h1 className={"font-bold text-xl lg:text-2xl "+gradient} data-aos="zoom-in">
+                  SCORP PRODUCTS</h1>
                   <br />
                   {
                       products.map(product=>(
