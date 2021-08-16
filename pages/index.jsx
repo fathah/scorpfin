@@ -2,10 +2,15 @@ import NavBar from '@/components/NavBar';
 import Particle from '@/components/Particles';
 import Why from '@/components/Home/Why';
 import Products from '@/components/Home/products';
-
+import Head from 'next/head'
 export default function Index() {
   return (
-    <div>
+    <>
+   
+      <Head>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+           
+      </Head>
      <Particle/>
       <NavBar/>
       <header>
@@ -36,6 +41,6 @@ style={{
 <Why/>
 <Products/>
       
-    </div>
+    </>
   )
 }
