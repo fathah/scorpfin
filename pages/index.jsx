@@ -38,8 +38,8 @@ style={{
   <button className="bg-white px-4 py-2 rounded mr-2 text-yellow-700 font-semibold ">Buy Now</button>
   </div>
   </div>
-  <div className="anim-item flex justify-center">
-    <img src="/img/data.svg" className="w-6/12 mt-12 lg:mt-0 lg:w-8/12" alt="" />
+  <div className="anim-item flex justify-center" >
+    <img src="/img/home.svg" className="w-6/12 mt-32 lg:mt-0 lg:w-8/12" data-aos="fade-left"  data-aos-delay="500" alt="" />
   </div>
 
 </section>
