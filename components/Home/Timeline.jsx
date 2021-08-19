@@ -14,12 +14,12 @@ return (<div className="lg:px-32 xl:px-72 py-6 p-10">
       <li>Coingecko/CoinMarketCap listing</li>
    <li>Integration with PancakeSwap, DexGuru & PooCoin </li>  </TimelineItem>
   <TimelineItem phase="Q3" date="2021">
-  <li>Integration of all DEX's into Scorp Folio</li> 
+  <li>Integration of all DEX&apos;s into Scorp Folio</li> 
   <li>Launch desktop version</li>
   <li>Launch ScorpFolio & ScorpSwap a decentralize exchange</li>
   </TimelineItem>
   <TimelineItem phase="Q3" date="2021">
-  Integration of all DEX's into ScorpSwap Desktop & Mobile Versions (Beta) 
+  Integration of all DEX&apos;s into ScorpSwap Desktop & Mobile Versions (Beta) 
   </TimelineItem>
   <TimelineItem phase="Q4" date="2021">
   <li>ScorpSwap desktop and mobile staking, lending and borrowing </li>
