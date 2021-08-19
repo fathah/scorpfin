@@ -6,7 +6,7 @@ import { useEffect } from "react";
 function MyApp({ Component, pageProps }) { useEffect(() => {
   AOS.init({
     easing: "ease-out-cubic",
-    once: false,
+    once: true,
     offset: 50,
   });
 }, []);
