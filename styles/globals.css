@@ -60,7 +60,20 @@ body{
 .anim-item {
   animation: MoveUpDown 5s linear infinite;
 }
-
+.gr-text{
+  background: #F1B729;
+background: -webkit-linear-gradient(to right, #F1B729 0%, #B77F19 50%,#84570C 100%);
+background: -moz-linear-gradient(to right, #F1B729 0%, #B77F19 50%,#84570C 100%);
+background: linear-gradient(to right, #F1B729 0%, #B77F19 50%,#84570C 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.gr-bg{
+  background: #F1B729;
+background: -webkit-linear-gradient(to right, #F1B729 0%, #B77F19 50%,#84570C 100%);
+background: -moz-linear-gradient(to right, #F1B729 0%, #B77F19 50%,#84570C 100%);
+background: linear-gradient(to right, #F1B729 0%, #B77F19 50%,#84570C 100%);
+}
 @keyframes MoveUpDown {
   0%, 100% {
     transform: translateY(0);

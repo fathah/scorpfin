@@ -16,11 +16,11 @@ const Particle = () => {
 	        },
 	        "line_linked": {
 	            "enable": true,
-	            "opacity": 0.02
+	            "opacity": 0.3
 	        },
 	        "move": {
 	            "direction": "right",
-	            "speed": 0.05
+	            "speed": 1
 	        },
 	        "size": {
 	            "value": 1
@@ -29,7 +29,7 @@ const Particle = () => {
 	            "anim": {
 	                "enable": true,
 	                "speed": 1,
-	                "opacity_min": 0.05
+	                "opacity_min": 1
 	            }
 	        }
 	    },
