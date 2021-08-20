@@ -1,7 +1,7 @@
 const Tokenomics = () => {
     return (
 
-        <div className="bg-sec lg:px-32 xl:px-72 py-6 p-10">
+        <div className="bg-sec lg:px-32 xl:px-48 py-6 p-10">
  <h1 className="gr-text font-bold text-xl lg:text-2xl mb-4" data-aos="zoom-in">
                   TOKENOMICS</h1>
 <p className="text-justify"  data-aos="fade-left">

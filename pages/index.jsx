@@ -14,6 +14,7 @@ export default function Index() {
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
       </Head>
      <Particle/>
+    
       <NavBar/>
       <header>
 <div
@@ -27,14 +28,14 @@ style={{
 }}
 >
 {/* text-3xl font-bold lg:text-5xl text-yellow-500 */}
-<section className="absolute z-20 px-10 xl:px-72 lg:px-32 top-52 lg:top-60 lg:flex"
+<section className="absolute z-20 px-10 xl:px-48 lg:px-32 top-52 lg:top-60 lg:flex"
 style={{pointerEvents:"none"}}
 >
   <div>
   <h2  className="font-extralight" data-aos="fade-right" data-aos-delay="200">WELCOME TO</h2>
-  <h1 className={"text-4xl font-extrabold gr-text"} data-aos="fade-right" data-aos-delay="300">SCORP FINANCE</h1>
-  <p className="lg:w-1/2 text-gray-400" data-aos="fade-right" data-aos-delay="500">
-  Scorp Finance a one stop solution for portfolio tracker, NFT Asset Tracker, 
+  <h1 className="text-4xl font-extrabold gr-text atmos" data-aos="fade-right" data-aos-delay="300">SCORP FINANCE</h1>
+  <p className="lg:w-11/12 text-gray-400" data-aos="fade-right" data-aos-delay="500">
+  Scorp Finance a one stop solution for Portfolio Tracker, NFT Asset Tracker, 
   Swapping and the Payment solution.
   </p>
   <br />

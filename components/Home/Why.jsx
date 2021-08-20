@@ -1,7 +1,7 @@
 const Why = () => {
 
     return (
-        <section className="p-10 xl:px-72 lg:px-32">
+        <section className="p-10 xl:px-48 lg:px-32">
   <h1 className="gr-text font-bold text-xl lg:text-2xl mb-2" data-aos="zoom-in">WHY SCORP FIN?</h1>
   <p className="text-gray-400" data-aos="fade-up">
   Scorpion Finance is positioning itself to be the most comprehensive 

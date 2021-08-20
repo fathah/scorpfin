@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Social from './Social'
 
 const NavBar = () => {
     const [navbar, setNavbar] = useState(false);
@@ -9,8 +10,13 @@ const NavBar = () => {
         {"title":"Tokenomics", "to":""},
         
     ];
-    return (<>
-        <nav className="fixed flex top-0 z-40 bg-primary w-full px-10 xl:px-72 lg:px-32 py-2 justify-between">
+    return (<div className="absolute top-0 z-40   w-full">
+     <Social/>
+        <nav className="flex px-10 xl:px-48 lg:px-32 py-2 justify-between"
+        style={{
+            background:'rgba(31, 35, 43, 0.5)'
+        }}
+        >
             <div>
                 <img src="/img/logo.png" className="w-20" alt="" data-aos="fade-right" />
             </div>
@@ -70,7 +76,7 @@ onClick={() =>setNavbar(false)}
 >
 
 </div>)}
-        </>
+        </div>
     );
 }
  
