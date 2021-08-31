@@ -6,8 +6,8 @@ const NavBar = () => {
     const navItems = [
         {"title":"Why Scorp Fin", "to":"#why"},
         {"title":"Products", "to":"#products"},
-        {"title":"Buy Now", "to":""},
-        {"title":"Tokenomics", "to":""},
+        {"title":"Buy Now", "to":"#buy"},
+        {"title":"Tokenomics", "to":"#tokenomics"},
         
     ];
     return (<div className="fixed top-0 z-40   w-full">

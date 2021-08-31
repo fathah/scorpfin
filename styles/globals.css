@@ -103,3 +103,15 @@ background: linear-gradient(to right, #F1B729 0%, #B77F19 50%,#84570C 100%);
   min-width: 100%;
   background: rgba(255, 255, 255, 0.1);
 }
+
+.main-features-grid{
+  max-width: 500px;
+  background: rgb(9,26,55);
+background: linear-gradient(153deg, rgba(35, 39, 47,1) 35%, rgba(31, 35, 43,1) 92%);
+  box-shadow: 4px 5px 20px rgba(0, 0, 0, 0.3);
+  transition: all 1s ease-in-out;
+}
+.main-features-grid:hover{
+  box-shadow: 6px 7px 20px rgba(0, 0, 0, 0.4);
+  
+}

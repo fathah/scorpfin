@@ -19,7 +19,7 @@ const Products = () => {
     ];
     return (
 
-        <section className="bg-sec p-10 lg:px-32 xl:px-48">
+        <section className="bg-sec p-10 lg:px-32 xl:px-48" id="products">
            <Bubble/>
               <h1 className="gr-text font-bold text-xl lg:text-2xl " data-aos="zoom-in">
                   SCORP PRODUCTS</h1>
@@ -47,7 +47,7 @@ const Products = () => {
                           </div>
                       ))
                   }
-
+<div id="tokenomics"></div>
         </section>
     );
 }

@@ -26,7 +26,6 @@ the mega giveaway events which have never been seen or heard of before.
 </p>
   </p> <br />
   <a href="/assets/Scorpion-Finance-Whitepaper.docx" className="bg-white text-primary rounded px-4 py-2 font-bold"
-   id="products"
    download
   >
     VIEW WHITEPAPER</a>

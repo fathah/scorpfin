@@ -46,12 +46,14 @@ style={{pointerEvents:"none"}}
   </p>
   <br />
   <div data-aos="fade-right" data-aos-delay="700">
-  <button className=" gr-bg  px-4 py-2 rounded mr-2 font-semibold "
+  <a className=" gr-bg  px-4 py-2 rounded mr-2 font-semibold cursor-pointer"
+  href="#buy"
   style={{pointerEvents:"auto"}}
-  >BUY NOW</button>
-  <button className="bg-white px-4 py-2 rounded mr-2 text-yellow-700 font-semibold "
+  >BUY NOW</a>
+  <a className="bg-white px-4 py-2 rounded mr-2 text-yellow-700 font-semibold cursor-pointer"
+  href=""
   style={{pointerEvents:"auto"}}
-  >LIVE CHARTS</button>
+  >LIVE CHARTS</a>
   </div>
   <div className="xl:hidden">
   <Social/>
@@ -61,18 +63,30 @@ style={{pointerEvents:"none"}}
 
 
   </div>
+ 
   <div className="anim-item flex justify-center" >
+ 
     <img src="/img/scorpfin.png" className="w-8/12 mt-20 lg:mt-0 xl:w-10/12" data-aos="fade-left"  data-aos-delay="500" alt="" />
+   
   </div>
-  <div id="why" className="absolute bottom-0"></div>
+ 
 
 </section>
 </div>
 </header>
+
+<div id="why"></div>
+
 <MainFeatures/>
 <Why/>
+<div id="buy"></div>
+
+
 <BuyNow/>
+<div id="products"></div>
+
 <Products/>
+
 <Tokenomics/>
 <Timeline/>
 <LogoSlides/>
