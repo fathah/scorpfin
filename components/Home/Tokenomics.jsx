@@ -9,16 +9,9 @@ const Tokenomics = () => {
     return (
 
         <div className="lg:px-32 xl:px-48 py-10 p-10">
-
-
-
-                  <div className="flex flex-col lg:flex-row justify-center items-center lg:justify-start">
-   
+<div className="flex flex-col lg:flex-row justify-center items-center lg:justify-start">
     <div className="lg:w-6/12">
-    <Tilt
-    glareEnable={true} glareMaxOpacity={0.8} glareColor="#ffffff" 
-    glarePosition="bottom" glareBorderRadius="20px"
-    ><div
+    <Tilt><div
     className="main-features-grid flex flex-col items-center p-6 rounded-lg m-4"
     style={{
         minHeight:"350px"

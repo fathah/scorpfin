@@ -11,7 +11,7 @@ import MainFeatures from '@/components/Home/MainFeatures'
 import LogoSlides from '@/components/Home/LogoSlides'
 import Contact from '@/components/Home/Contact'
 import BuyNow from '@/components/Home/Buy'
-
+import FeaturesSlide from '@/components/Home/SlideFeatures'
 
 
 export default function Index() {
@@ -83,8 +83,8 @@ style={{pointerEvents:"none"}}
 
 
 <BuyNow/>
+<FeaturesSlide/>
 <div id="products"></div>
-
 <Products/>
 
 <Tokenomics/>

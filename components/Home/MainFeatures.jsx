@@ -33,6 +33,7 @@ const featureData = [
                     title={item.title}
                     body={item.body}
                     lottie={item.lottie}
+                    delay={(featureData.indexOf(item)+2)*100}
                     />
                    
                 ))
@@ -45,16 +46,25 @@ const featureData = [
 export default MainFeatures;
 
 
-export const SingleGrid = ({title, body, lottie}) => {
+export const SingleGrid = ({title, body, lottie, delay}) => {
     return  <Tilt><div
     className="main-features-grid flex flex-col items-center p-6 rounded-md m-4"
     style={{
         minHeight:"350px"
     }}
+    data-aos="fade-up"
+    data-aos-delay={delay}
     >
-        <Lottie animationData={lottie}
+        {lottie==reward?(
+            <img src="/img/bnb.gif"  alt=""
+            style={{ height:"100px" }}
+            />
+        ):(
+            <Lottie animationData={lottie}
         style={{ height:"100px" }}
         />
+        )}
+        
 <h1
 className="gr-text font-bold text-xl my-2"
 >{title}</h1>

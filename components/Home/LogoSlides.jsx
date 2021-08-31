@@ -1,3 +1,6 @@
+import Marquee from "react-fast-marquee";
+
+
 const LogoSlides = () => {
     const images = [
         "blockfolio.png", "coingecko.png","coinmarketcap.png", "coinsniper.png","whitebit.png"
@@ -6,6 +9,7 @@ const LogoSlides = () => {
        
            <div className="flex bg-white justify-center"
 >
+<Marquee>
    {
         images.map(img =>(
             <img src={"/img/exLogos/"+img} 
@@ -15,7 +19,7 @@ const LogoSlides = () => {
             alt="" />
         ))
     }
-  
+ </Marquee>
 </div>
        
     );
