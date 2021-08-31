@@ -14,6 +14,9 @@
 *{
   font-family: 'Montserrat', sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   background-color: #1F232B;
   color: #fff;
@@ -87,4 +90,16 @@ background: linear-gradient(to right, #F1B729 0%, #B77F19 50%,#84570C 100%);
   50% {
     transform: translateY(-15px);
   }
+}
+
+.input{
+  min-height: 40px;
+  margin: 7px 0px;
+  outline: none;
+  display: block;
+  border: none;
+  border-radius:4px;
+  padding:10px;
+  min-width: 100%;
+  background: rgba(255, 255, 255, 0.1);
 }

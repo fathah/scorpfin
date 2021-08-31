@@ -3,7 +3,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Timeline = () => {
 
-return (<div className="lg:px-32 xl:px-48 py-6 p-10">
+return (<div className="bg-sec  lg:px-32 xl:px-48 py-6 p-10">
          <h1 className="gr-text font-bold text-xl lg:text-2xl mb-4" data-aos="zoom-in">
                   ROADMAP</h1>
         <VerticalTimeline>

@@ -1,20 +1,18 @@
-import { FaTelegram, FaDiscord, FaFacebook} from 'react-icons/fa'
-import {AiFillTwitterCircle, AiFillRedditCircle, AiFillInstagram, } from 'react-icons/ai'
+import { FaTelegram,FaYoutubeSquare,  FaFacebook} from 'react-icons/fa'
+import {AiFillTwitterCircle, AiFillYoutube, AiFillRedditCircle, AiFillInstagram, } from 'react-icons/ai'
 
 const Social = () => {
     const common = "text-xl mx-2";
     return (<div
-    className="py-4 flex justify-end  xl:px-48 lg:px-32  px-10 py-4"
-        style={{
-            background:'rgba(31, 35, 43, 0.7)'
-        }}
+    className="flex mt-6"
+    data-aos="fade-right"
     >
-       <a href=""> <FaTelegram className={common}/></a>
-       <a href=""> <AiFillTwitterCircle className={common}/></a>
-       <a href=""> <FaDiscord className={common}/></a>
-       <a href=""> <AiFillRedditCircle className={common}/></a>
-       <a href=""> <AiFillInstagram className={common}/></a>
-       <a href=""> <FaFacebook className={common}/></a> 
+       <a href="https://t.me/ScorpFin"> <FaTelegram className={common}/></a>
+       <a href="https://twitter.com/ScorpionFinance"> <AiFillTwitterCircle className={common}/></a>
+       <a href=""> <FaYoutubeSquare className={common}/></a>
+       <a href="https://www.reddit.com/user/ScorpionFinance"> <AiFillRedditCircle className={common}/></a>
+       <a href="https://www.instagram.com/ScorpionFinance"> <AiFillInstagram className={common}/></a>
+       <a href="https://www.facebook.com/ScorpFin"> <FaFacebook className={common}/></a> 
 
     </div>);
 }

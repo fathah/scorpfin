@@ -6,6 +6,13 @@ import Head from 'next/head'
 import Timeline from '@/components/Home/Timeline'
 import Tokenomics from '@/components/Home/Tokenomics'
 import Footer from '@/components/Footer'
+import Social from '@/components/Social';
+import MainFeatures from '@/components/Home/MainFeatures'
+import LogoSlides from '@/components/Home/LogoSlides'
+import Contact from '@/components/Home/Contact'
+import BuyNow from '@/components/Home/Buy'
+
+
 
 export default function Index() {
   return (
@@ -14,8 +21,7 @@ export default function Index() {
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
       </Head>
      <Particle/>
-
-      <NavBar/>
+      <NavBar/>      
       <header>
 <div
 className="top-0 w-full h-full"
@@ -33,33 +39,44 @@ style={{pointerEvents:"none"}}
 >
   <div>
   <h2  className="font-extralight" data-aos="fade-right" data-aos-delay="200">WELCOME TO</h2>
-  <h1 className="text-4xl font-extrabold gr-text atmos" data-aos="fade-right" data-aos-delay="300">SCORP FINANCE</h1>
+  <h1 className="text-2xl font-extrabold gr-text atmos" data-aos="fade-right" data-aos-delay="300">SCORPION FINANCE</h1>
   <p className="lg:w-11/12 text-gray-400" data-aos="fade-right" data-aos-delay="500">
-  Scorp Finance a one stop solution for Portfolio Tracker, NFT Asset Tracker, 
+  Scorpion Finance a one stop solution for Portfolio Tracker, NFT Asset Tracker, 
   Swapping and the Payment solution.
   </p>
   <br />
   <div data-aos="fade-right" data-aos-delay="700">
   <button className=" gr-bg  px-4 py-2 rounded mr-2 font-semibold "
   style={{pointerEvents:"auto"}}
-  >Know More</button>
+  >BUY NOW</button>
   <button className="bg-white px-4 py-2 rounded mr-2 text-yellow-700 font-semibold "
   style={{pointerEvents:"auto"}}
-  >Buy Now</button>
+  >LIVE CHARTS</button>
   </div>
+  <div className="xl:hidden">
+  <Social/>
+  </div>
+ 
+  
+
+
   </div>
   <div className="anim-item flex justify-center" >
-    <img src="/img/scorpfin.png" className="w-8/12 mt-20 lg:mt-0 lg:w-10/12" data-aos="fade-left"  data-aos-delay="500" alt="" />
+    <img src="/img/scorpfin.png" className="w-8/12 mt-20 lg:mt-0 xl:w-10/12" data-aos="fade-left"  data-aos-delay="500" alt="" />
   </div>
   <div id="why" className="absolute bottom-0"></div>
 
 </section>
 </div>
 </header>
+<MainFeatures/>
 <Why/>
+<BuyNow/>
 <Products/>
-<Timeline/>
 <Tokenomics/>
+<Timeline/>
+<LogoSlides/>
+<Contact/>
 <Footer/>
     </>
   )

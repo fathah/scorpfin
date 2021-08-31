@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Social from './Social'
+import Social from "./Social"
 
 const NavBar = () => {
     const [navbar, setNavbar] = useState(false);
@@ -10,18 +10,20 @@ const NavBar = () => {
         {"title":"Tokenomics", "to":""},
         
     ];
-    return (<div className="absolute top-0 z-40   w-full">
-     <Social/>
+    return (<div className="fixed top-0 z-40   w-full">
+    
         <nav className="flex px-10 xl:px-48 lg:px-32 py-2 justify-between"
         style={{
-            background:'rgba(31, 35, 43, 0.5)'
+            background:'rgb(21,27,40)'
         }}
         >
-            <div>
+            <div className="flex">
                 <img src="/img/logo.png" className="w-20" alt="" data-aos="fade-right" />
+                <div className="hidden xl:block ml-5"><Social/></div>
             </div>
             {/* DESKTOP MENU */}
             <div className="hidden lg:block my-4">
+
             {
                 navItems.map((item) => {
                     return (
@@ -44,7 +46,7 @@ const NavBar = () => {
 
             {navbar && 
             (<menu 
-            className="absolute right-10 bg-gray-700 w-1/2 pt-4 pb-10 rounded lg:hidden"
+            className="absolute z-50 right-10 bg-gray-700 w-1/2 pt-4 pb-10 rounded lg:hidden"
             data-aos="fade-down"
             >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 absolute right-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"
