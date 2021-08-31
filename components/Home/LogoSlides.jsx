@@ -9,6 +9,7 @@ const LogoSlides = () => {
    {
         images.map(img =>(
             <img src={"/img/exLogos/"+img} 
+            key={img}
             className="mx-10"
             style={{maxHeight:"100px"}}
             alt="" />
