@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 const LogoSlides = () => {
     const images = [
-        "blockfolio.png", "coingecko.png","coinmarketcap.png", "coinsniper.png","whitebit.png"
+        "blockfolio.png", "coingecko.png","coinmarketcap.png", "coinsniper.png","whitebit.png", "certik.png"
     ];
     return (
        
