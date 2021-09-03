@@ -16,17 +16,21 @@ style={{
     </div>
     <div>
     <h1 className="text-white font-bold text-xl text-center lg:text-3xl mb-2  mt-4" data-aos="zoom-in">
-    BUY SCORPION</h1>
+    BUY SCORPFIN</h1>
 
     
     <div className="flex justify-center items-center mt-3">
         <a
         href="https://exchange.scorpion-finance.com"
         className="bg-yellow-500 hover:bg-yellow-600 rounded px-4 py-3 text-black font-bold cursor-pointer"
-        >Scorpion Exchange</a> <br />
+        target="_blank"
+        rel="noreferrer"
+        >ScorpSwap</a> <br />
         <a
         href="https://exchange.pancakeswap.com/"
         className="bg-yellow-800 hover:bg-yellow-900 rounded px-4 py-3 text-white font-bold ml-4 cursor-pointer"
+        target="_blank"
+        rel="noreferrer"
         >PancakeSwap</a>
     </div></div>
     </div>

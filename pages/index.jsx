@@ -19,6 +19,7 @@ export default function Index() {
     <>
       <Head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+      <title>Scorpion Finance</title>
       </Head>
      <Particle/>
       <NavBar/>      
@@ -42,14 +43,14 @@ style={{pointerEvents:"none"}}
   <h1 className="text-2xl font-extrabold gr-text atmos" data-aos="fade-right" data-aos-delay="300">SCORPION FINANCE</h1>
   <p className="lg:w-11/12 text-gray-400" data-aos="fade-right" data-aos-delay="500">
   Scorpion Finance a one stop solution for Portfolio Tracker, NFT Asset Tracker, 
-  Swapping and the Payment solution.
+  Swapping, Payment solution and Gaming Platform.
   </p>
   <br />
   <div data-aos="fade-right" data-aos-delay="700">
   <a className=" gr-bg  px-4 py-2 rounded mr-2 font-semibold cursor-pointer"
   href="#buy"
   style={{pointerEvents:"auto"}}
-  >BUY NOW</a>
+  >SWAP</a>
   <a className="bg-white px-4 py-2 rounded mr-2 text-yellow-700 font-semibold cursor-pointer"
   href=""
   style={{pointerEvents:"auto"}}
@@ -75,9 +76,9 @@ style={{pointerEvents:"none"}}
 </div>
 </header>
 
-<div id="why"></div>
 
 <MainFeatures/>
+<img src="/img/banner.png" style={{width: "100%",}} alt="" id="why" />
 <Why/>
 <div id="buy"></div>
 

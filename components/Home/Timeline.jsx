@@ -8,7 +8,7 @@ return (<div className="bg-sec  lg:px-32 xl:px-48 py-6 p-10">
                   ROADMAP</h1>
         <VerticalTimeline>
   <TimelineItem phase="Q3" date="2021">
-  <li>Token and contract deployment on package swap</li> <li>Website Launch </li>
+  <li>Token and contract deployment on PancakeSwap</li> <li>Website Launch </li>
   </TimelineItem>
   <TimelineItem phase="Q3" date="2021">
       <li>Coingecko/CoinMarketCap listing</li>
@@ -25,6 +25,7 @@ return (<div className="bg-sec  lg:px-32 xl:px-48 py-6 p-10">
   <li>ScorpSwap desktop and mobile staking, lending and borrowing </li>
   <li> ScorpSwap Lottery, ScorpFolio mobile app. </li>
   <li>ScorPay initial testing </li>
+  <li>ScorpGames</li>
    </TimelineItem>
   <TimelineItem phase="Q4" date="2021">
   <li>Listing on a well-known exchange(e.g Kucoin, MXC, gate.io) </li>

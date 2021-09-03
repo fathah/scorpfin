@@ -28,7 +28,7 @@ className="text-justify lg:text-xl"
 <span className="gr-text">100 Billion</span>  Total Supply <br />
 <span className="gr-text">63%</span> Token Sales  <br />
 <span className="gr-text">10%</span> Ecosystem and community <br />
-<span className="gr-text">8%</span>    Development, marketing and R&D) <br />
+<span className="gr-text">8%</span>    Development, marketing and R&D <br />
 <span className="gr-text"> 4%</span>    Founders and Team <br />
 <span className="gr-text">15%</span> Farming and staking <br />
 

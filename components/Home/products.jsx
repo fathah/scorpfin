@@ -6,20 +6,27 @@ const Products = () => {
     const products = [
         {name:"ScorpFolio",
         description:"ScorpFolio aims to be the leading network for mobile cryptocurrency portfolio tracking management. As a solution, ScorpFolio offers web and mobile application where you can overview and customize your wallets assets portfolio. We have successfully tested our application tool to analyze any wallet with BEP20 tokens.",
-        img:"scorpfolio.png"},
+        img:"scorpfolio.png",
+        url:"/scorpfolio"
+        // https://scorpfolio.scorpion-finance.com/
+    },
         {name:"ScorPay",
         description:"Pay for goods and services using your crypto currency. With ScorPay, transactions are fast, reliable, convenient, transparent and trustworthy. Building a trust network around the community, customers and retailers worldwide",
-        img:"scorpay.png"},
+        img:"scorpay.png",
+        url:"/scorppay"},
         {name:"ScorpSwap",
         description:"ScorpSwap allows you to stake tokens and earn more of the staked tokens as rewards. Earn tokens/coins whenever liquidity is provided. Farm by investing tokens to unlock digital wallets and get to earn from the top 100 listed tokens/coin",
-        img:"scorpswap.png"},
+        img:"scorpswap.png",
+        url:"https://exchange.scorpion-finance.com/#/swap"},
         {name:"ScorpNFTracker",
         description:"Take advantage of earning ScorFin tokens for using ScorpNFTracker. Real time tracking of your NFTs. Keep track of multiple wallets where your NFTs are stored",
-        img:"nfttracker.png"},
+        img:"nfttracker.png",
+        url:"/scorpNFTtracker"},
         {
             name:"Scorp Games",
             description:"Play to Earn revolution. A new type of game, partially owned and operated by its players. Earn ScorpFin tokens by playing and use them to decide the future of the game! We are working so hard to brings you the perfect version of ScorpGames Play-to-earn Game!",
-            img:"scorpgames.png"
+            img:"scorpgames.png",
+            url:"/scorpgames"
         }
     ];
     return (
@@ -27,11 +34,12 @@ const Products = () => {
         <section className="bg-sec p-10 lg:px-32 xl:px-48" id="products">
            <Bubble/>
               <h1 className="gr-text font-bold text-xl lg:text-2xl " data-aos="zoom-in">
-                  SCORP PRODUCTS</h1>
+                  SCORPION FINANCE PRODUCTS</h1>
                   <br />
                   {
                       products.map(product=>(
                           <div className="lg:flex my-8"
+                          onClick={()=>window.open(product.url, "_blank")}
                           key={products.indexOf(product)}
                           data-aos={
                             products.indexOf(product)%2==0?

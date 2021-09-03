@@ -7,12 +7,24 @@ const Social = () => {
     className="flex mt-6"
     data-aos="fade-right"
     >
-       <a href="https://t.me/ScorpFin"> <FaTelegram className={common}/></a>
-       <a href="https://twitter.com/ScorpionFinance"> <AiFillTwitterCircle className={common}/></a>
-       <a href=""> <FaYoutubeSquare className={common}/></a>
-       <a href="https://www.reddit.com/user/ScorpionFinance"> <AiFillRedditCircle className={common}/></a>
-       <a href="https://www.instagram.com/ScorpionFinance"> <AiFillInstagram className={common}/></a>
-       <a href="https://www.facebook.com/ScorpFin"> <FaFacebook className={common}/></a> 
+       <a href="https://t.me/ScorpFin" target="_blank"
+ rel="noreferrer"
+> <FaTelegram className={common}/></a>
+       <a href="https://twitter.com/ScorpionFinance" target="_blank"
+ rel="noreferrer"
+> <AiFillTwitterCircle className={common}/></a>
+       <a href="https://www.youtube.com/channel/UCmYC7gForhv5GsW6dokEoDw/featured" target="_blank"
+ rel="noreferrer"
+> <FaYoutubeSquare className={common}/></a>
+       <a href="https://www.reddit.com/user/ScorpionFinance" target="_blank"
+ rel="noreferrer"
+> <AiFillRedditCircle className={common}/></a>
+       <a href="https://www.instagram.com/ScorpionFinance" target="_blank"
+ rel="noreferrer"
+> <AiFillInstagram className={common}/></a>
+       <a href="https://www.facebook.com/ScorpFin" target="_blank"
+ rel="noreferrer"
+> <FaFacebook className={common}/></a> 
 
     </div>);
 }
