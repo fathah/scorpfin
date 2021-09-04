@@ -10,7 +10,7 @@ const featureData = [
     {
         title: `Auto Dual Rewards`,
         body: "Scorpion Finance is the next iteration of a reflection token on the Binance Smart Chain (BSC), world's 4th and Europe's first. The unique double reward reflection will be 10% in BNB and 5% in ScorpFin token. Simply hold ScorpFin tokens and get paid, from every buy and sell. The rewards are auto-sent to your wallet every 60 minutes",
-        sub:"(BNB & Scorpfin)", lottie:reward
+        sub:"(10% BNB & 5% Scorpfin)", lottie:reward
     },
     {
         title: "Scorpfin Giveaways",

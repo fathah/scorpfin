@@ -12,6 +12,7 @@ import LogoSlides from '@/components/Home/LogoSlides'
 import Contact from '@/components/Home/Contact'
 import BuyNow from '@/components/Home/Buy'
 import FeaturesSlide from '@/components/Home/SlideFeatures'
+import Certificates from '@/components/Home/Certificates'
 
 
 export default function Index() {
@@ -47,11 +48,18 @@ style={{pointerEvents:"none"}}
   </p>
   <br />
   <div data-aos="fade-right" data-aos-delay="700">
-  <a className=" gr-bg  px-4 py-2 rounded mr-2 font-semibold cursor-pointer"
+  <a className=" gr-bg  px-4 py-2 rounded mr-2 cursor-pointer"
   href="#buy"
   style={{pointerEvents:"auto"}}
+  >BUY</a>
+  <a className=" bg-white text-yellow-700 px-4 py-2 rounded mr-2  cursor-pointer"
+  href="https://exchange.scorpion-finance.com"
+  target="_blank"
+        rel="noreferrer"
+  style={{pointerEvents:"auto"}}
   >SWAP</a>
-  <a className="bg-white px-4 py-2 rounded mr-2 text-yellow-700 font-semibold cursor-pointer"
+  
+  <a className="bg-transparent px-4 py-2 rounded mr-2 text-white border-2 border-white  cursor-pointer"
   href=""
   style={{pointerEvents:"auto"}}
   >LIVE CHARTS</a>
@@ -82,7 +90,7 @@ style={{pointerEvents:"none"}}
 <Why/>
 <div id="buy"></div>
 
-
+<Certificates/>
 <BuyNow/>
 <FeaturesSlide/>
 <div id="products"></div>
