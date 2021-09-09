@@ -7,7 +7,7 @@ const Tokenomics = () => {
         <div className="lg:px-32 xl:px-48 py-10 p-10">
 <div className="md:grid md:grid-cols-2">
     <Tilt><div
-    className="main-features-grid flex flex-col items-center pt-6 px-6 rounded-lg m-4"
+    className="main-features-grid flex flex-col items-center pt-6 px-6 rounded-lg m-4 "
     style={{
         minHeight:"350px"
     }}
@@ -35,13 +35,16 @@ className="text-justify lg:text-xl"
     ['Task', 'Hours per Day'],
     ['Token Sales', 63],
     ['Ecosystem and community', 10],
-    ['Development, marketing and R&D', 8],
+    ['Development', 4],
+    ['Marketing and R&D', 4],
     ['Founders and Team', 4],
     ['Farming and Staking', 15],
   ]}
   options={{
     title: '100 Billion Total Supply',
+    pieHole: 0.4,
     backgroundColor:"transparent",
+    colors:["#11397F","#634F94","#9A6BA2","#C98BB2","#3B8DB5","#2764A5",],
     hAxis: {
         textStyle: {
             color: '#ffffff'
@@ -62,7 +65,7 @@ className="text-justify lg:text-xl"
     }
   }}
  
-  rootProps={{ 'data-testid': '1' }}
+  rootProps={{ 'data-testid': '3' }}
 /></div>
     </div> </Tilt>
     <Tilt><div
