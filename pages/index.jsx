@@ -13,6 +13,7 @@ import Contact from '@/components/Home/Contact'
 import BuyNow from '@/components/Home/Buy'
 import FeaturesSlide from '@/components/Home/SlideFeatures'
 import Certificates from '@/components/Home/Certificates'
+import TokenFeatures from '@/components/Home/TokenFeatures'
 
 
 export default function Index() {
@@ -86,7 +87,8 @@ style={{pointerEvents:"none"}}
 
 
 <MainFeatures/>
-<img src="/img/banner.png" style={{width: "100%",}} alt="" id="why" />
+<div id="why"></div>
+{/* <img src="/img/banner.png" style={{width: "100%",}} alt="" id="why" /> */}
 <Why/>
 <div id="buy"></div>
 
@@ -97,6 +99,7 @@ style={{pointerEvents:"none"}}
 <Products/>
 
 <Tokenomics/>
+<TokenFeatures/>
 <Timeline/>
 <LogoSlides/>
 <Contact/>
