@@ -4,7 +4,7 @@ import Chart from "react-google-charts";
 
 const Tokenomics = () => {
     return (
-        <div className="lg:px-32 xl:px-48 py-10 p-10">
+        <div className="lg:px-32 xl:px-48 py-10 px-1">
 <div className="md:grid md:grid-cols-2">
     <Tilt><div
     className="main-features-grid flex flex-col items-center pt-6 px-6 rounded-lg m-4 "
@@ -80,7 +80,7 @@ SCORPFIN SLIPPAGE</h1>
         <section className="md:grid md:grid-cols-2">
 
             <div>
-                <h3 className="text-gray-500 font-bold text-center text-xl">BUY</h3>
+                <h3 className="text-gray-500 font-bold text-center text-xl mt-2">BUY</h3>
 <span className="gr-text mr-1">&#8651;</span> Buy slippage 13% <br />
 <span className="gr-text mr-1">&#8651;</span> 5% BNB <br />
 <span className="gr-text mr-1">&#8651;</span> 2% ScorpFin Tokens <br />
@@ -90,7 +90,7 @@ SCORPFIN SLIPPAGE</h1>
 
 
             <div>
-            <h3 className="text-gray-500 font-bold text-center text-xl">SELL</h3>
+            <h3 className="text-gray-500 font-bold text-center text-xl mt-2">SELL</h3>
 <span  className="gr-text mr-1">&#8651;</span> Sell Slippage 16% <br />
 <span  className="gr-text mr-1">&#8651;</span> 5% BNB <br />
 <span  className="gr-text mr-1">&#8651;</span> 2% ScorpFin Tokens <br />

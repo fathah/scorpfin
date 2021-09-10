@@ -27,7 +27,7 @@ const TokenFeatures = () => {
     ];
     return (
         <div>
-            <section className="md:grid md:grid-cols-3 lg:mx-48 pb-10">
+            <section className="md:grid md:grid-cols-3 lg:mx-48 pb-10 mx-4">
                 {
                     features.map(item => (
                         <div
