@@ -19,7 +19,7 @@ const NavBar = () => {
         >
             <div className="flex">
                 <img src="/img/logo.png" className="w-20" alt="" data-aos="fade-right" />
-                <div className="hidden xl:block ml-5"><Social/></div>
+                <div className="block ml-5"><Social/></div>
             </div>
             {/* DESKTOP MENU */}
             <div className="hidden lg:block my-4">

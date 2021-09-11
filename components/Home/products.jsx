@@ -7,13 +7,13 @@ const Products = () => {
         {name:"ScorpFolio",
         description:"ScorpFolio aims to be the leading network for mobile cryptocurrency portfolio tracking management. As a solution, ScorpFolio offers web and mobile application where you can overview and customize your wallets assets portfolio. We have successfully tested our application tool to analyze any wallet with BEP20 tokens.",
         img:"scorpfolio.png",
-        url:"/scorpfolio"
+        url:"https://scorpfolio.scorpion-finance.com/"
         // https://scorpfolio.scorpion-finance.com/
     },
         {name:"ScorPay",
         description:"Pay for goods and services using your crypto currency. With ScorPay, transactions are fast, reliable, convenient, transparent and trustworthy. Building a trust network around the community, customers and retailers worldwide",
         img:"scorpay.png",
-        url:"/scorppay"},
+        url:"/scorppay.html"},
         {name:"ScorpSwap",
         description:"ScorpSwap allows you to stake tokens and earn more of the staked tokens as rewards. Earn tokens/coins whenever liquidity is provided. Farm by investing tokens to unlock digital wallets and get to earn from the top 100 listed tokens/coin",
         img:"scorpswap.png",
@@ -21,12 +21,12 @@ const Products = () => {
         {name:"ScorpNFTracker",
         description:"Take advantage of earning ScorFin tokens for using ScorpNFTracker. Real time tracking of your NFTs. Keep track of multiple wallets where your NFTs are stored",
         img:"nfttracker.png",
-        url:"/scorpNFTtracker"},
+        url:"/scorpNFTtracker.html"},
         {
             name:"Scorp Games",
             description:"Play to Earn revolution. A new type of game, partially owned and operated by its players. Earn ScorpFin tokens by playing and use them to decide the future of the game! We are working so hard to brings you the perfect version of ScorpGames Play-to-earn Game!",
             img:"scorpgames.png",
-            url:"/scorpgames"
+            url:"/scorpgames.html"
         }
     ];
     return (

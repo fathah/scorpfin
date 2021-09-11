@@ -54,19 +54,17 @@ style={{pointerEvents:"none"}}
   style={{pointerEvents:"auto"}}
   >BUY</a>
   <a className=" bg-white text-yellow-700 px-4 py-2 rounded mr-2  cursor-pointer"
-  href="https://exchange.scorpion-finance.com"
-  target="_blank"
-        rel="noreferrer"
+  href="#audit"
   style={{pointerEvents:"auto"}}
-  >SWAP</a>
+  >AUDIT</a>
   
   <a className="bg-transparent px-4 py-2 rounded mr-2 text-white border-2 border-white  cursor-pointer"
   href=""
   style={{pointerEvents:"auto"}}
   >LIVE CHARTS</a>
   </div>
-  <div className="xl:hidden">
-  <Social/>
+  <div className="xl:hidden"  style={{pointerEvents:"auto"}}>
+  {/* <Social/> */}
   </div>
  
   
