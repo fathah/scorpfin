@@ -12,7 +12,7 @@ const NavBar = () => {
     ];
     return (<div className="fixed top-0 z-40   w-full">
     
-        <nav className="flex px-10 xl:px-48 lg:px-32 py-2 justify-between"
+        <nav className="flex px-2 pr-4 xl:px-48 lg:px-32 py-2 justify-between"
         style={{
             background:'rgb(21,27,40)'
         }}

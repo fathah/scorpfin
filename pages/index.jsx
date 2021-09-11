@@ -48,17 +48,17 @@ style={{pointerEvents:"none"}}
   Swapping, Payment solution and Gaming Platform.
   </p>
   <br />
-  <div data-aos="fade-right" data-aos-delay="700">
-  <a className=" gr-bg  px-4 py-2 rounded mr-2 cursor-pointer"
+  <div className="flex flex-wrap-reverse" data-aos="fade-right" data-aos-delay="700">
+  <a className=" gr-bg  px-4 py-2 mb-4 rounded mr-2 cursor-pointer"
   href="#buy"
   style={{pointerEvents:"auto"}}
   >BUY</a>
-  <a className=" bg-white text-yellow-700 px-4 py-2 rounded mr-2  cursor-pointer"
+  <a className=" bg-white text-yellow-700 px-4 py-2 mb-4 rounded mr-2  cursor-pointer"
   href="#audit"
   style={{pointerEvents:"auto"}}
   >AUDIT</a>
   
-  <a className="bg-transparent px-4 py-2 rounded mr-2 text-white border-2 border-white  cursor-pointer"
+  <a className="bg-transparent px-4 py-2 mb-4 rounded mr-2 text-white border-2 border-white  cursor-pointer"
   href=""
   style={{pointerEvents:"auto"}}
   >LIVE CHARTS</a>
