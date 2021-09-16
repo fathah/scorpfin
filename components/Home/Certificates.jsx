@@ -7,9 +7,18 @@ const Certificates = () => {
         }}
         >
             <div className="flex flex-wrap justify-center">
-            <a href="/assets/ScorpionFinance_AuditCertificate_InterFi.pdf" className={classN+" bg-yellow-500 hover:bg-yellow-700"} download>AUDIT CERTIFICATE</a>
-            <a href="/assets/ScorpionFinance_AuditReport_InterFi.pdf" className={classN+" bg-yellow-600 hover:bg-yellow-800"} download>AUDIT REPORT</a>
-            <a href="/assets/ScorpionFinance_KYCCertificate_InterFi.pdf" className={classN+" bg-yellow-700 hover:bg-yellow-900"} download>KYC CERTIFICATE</a>
+            <a href="/assets/ScorpionFinance_AuditCertificate_InterFi.pdf" className={classN+" bg-yellow-500 hover:bg-yellow-700"} 
+            target="_blank"
+        rel="noreferrer"
+            >AUDIT CERTIFICATE</a>
+            <a href="/assets/ScorpionFinance_AuditReport_InterFi.pdf" className={classN+" bg-yellow-600 hover:bg-yellow-800"} 
+            target="_blank"
+        rel="noreferrer"
+            >AUDIT REPORT</a>
+            <a href="/assets/ScorpionFinance_KYCCertificate_InterFi.pdf" className={classN+" bg-yellow-700 hover:bg-yellow-900"} 
+            target="_blank"
+        rel="noreferrer"
+            >KYC CERTIFICATE</a>
             </div>
 
         </div>

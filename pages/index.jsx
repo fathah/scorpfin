@@ -14,6 +14,7 @@ import BuyNow from '@/components/Home/Buy'
 import FeaturesSlide from '@/components/Home/SlideFeatures'
 import Certificates from '@/components/Home/Certificates'
 import TokenFeatures from '@/components/Home/TokenFeatures'
+import HowToBuy from '@/components/Home/HowToBuy'
 
 
 export default function Index() {
@@ -99,6 +100,7 @@ style={{pointerEvents:"none"}}
 <Tokenomics/>
 <TokenFeatures/>
 <Timeline/>
+<HowToBuy/>
 <LogoSlides/>
 <Contact/>
 <Footer/>
