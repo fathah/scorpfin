@@ -17,8 +17,8 @@ width="560" height="315"
 src="https://www.youtube.com/embed/9iqu7aU34zk" 
 title="YouTube video player"
 className="rounded-lg shadow-xl"
-frameborder="0" 
-allowfullscreen>
+
+>
 
 </iframe>
                  
