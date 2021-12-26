@@ -8,10 +8,10 @@ const TokenFeatures = () => {
         body:"2% of every buy & 3% of every sell is taken and redistributed to all holders in ScorpFin. Hold ScorpFin tokens, earn ScorpFin. Hold ScorpFin to earn more ScorpFin reflection rewards. ",
         icon:""    
     },
-    {title:"Auto Paid Every 60 Minutes", 
-        body:"You don’t need to claim you’re earned BNB & ScorpFin. It’s automatically sent to your wallet every 60 minutes. ",
-        icon:""    
-    },
+    // {title:"Auto Paid Every 60 Minutes", 
+    //     body:"You don’t need to claim you’re earned BNB & ScorpFin. It’s automatically sent to your wallet every 60 minutes. ",
+    //     icon:""    
+    // },
     {title:"Hyper-Deflation", 
         body:"2% Auto Buyback & Burn ScorpFin, 2% of every sell transaction is transformed into ScorpFin (2%) for auto Buyback & burn. Once the system detects a sell, it will auto-buy back a certain value of tokens.",
         icon:""    
@@ -27,7 +27,7 @@ const TokenFeatures = () => {
     ];
     return (
         <div>
-            <section className="md:grid md:grid-cols-3 lg:mx-48 pb-10 mx-4">
+            <section className="md:grid md:grid-cols-3 lg:mx-48 pb-10 mx-2">
                 {
                     features.map(item => (
                         <div

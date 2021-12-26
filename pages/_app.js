@@ -1,3 +1,4 @@
+import 'tailwindcss/tailwind.css'
 import '../styles/globals.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -9,6 +10,9 @@ function MyApp({ Component, pageProps }) { useEffect(() => {
     once: true,
     offset: 50,
   });
+ 
+
+
 }, []);
   return <Component {...pageProps} />
 }

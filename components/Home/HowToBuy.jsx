@@ -1,7 +1,7 @@
 const HowToBuy = () => {
     return (
         <div>
-            <h1 className="gr-text font-bold text-xl text-center lg:text-2xl my-5  mx-10 xl:mx-72" data-aos="zoom-in">
+            <h1 className="gr-text font-bold text-xl text-center lg:text-2xl my-5  mx-10 xl:mx-72">
                       HOW TO BUY?</h1>
             <section
             className="flex justify-center mx-10 xl:mx-72"

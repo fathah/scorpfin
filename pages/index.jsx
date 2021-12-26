@@ -42,14 +42,14 @@ style={{
 style={{pointerEvents:"none"}}
 >
   <div>
-  <h2  className="font-extralight" data-aos="fade-right" data-aos-delay="200">WELCOME TO</h2>
-  <h1 className="text-2xl font-extrabold gr-text atmos" data-aos="fade-right" data-aos-delay="300">SCORPION FINANCE</h1>
-  <p className="lg:w-11/12 text-gray-400" data-aos="fade-right" data-aos-delay="500">
+  <h2  className="font-extralight">WELCOME TO</h2>
+  <h1 className="text-2xl font-extrabold gr-text atmos" >SCORPION FINANCE</h1>
+  <p className="lg:w-11/12 text-gray-400" >
   Scorpion Finance a one stop solution for Portfolio Tracker, NFT Asset Tracker, 
   Swapping, Payment solution and Gaming Platform.
   </p>
   <br />
-  <div className="flex flex-wrap-reverse" data-aos="fade-right" data-aos-delay="700">
+  <div className="flex flex-wrap-reverse" >
   <a className=" gr-bg  px-4 py-2 mb-4 rounded mr-2 cursor-pointer"
   href="#buy"
   style={{pointerEvents:"auto"}}
@@ -60,22 +60,58 @@ style={{pointerEvents:"none"}}
   >AUDIT</a>
   
   <a className="bg-transparent px-4 py-2 mb-4 rounded mr-2 text-white border-2 border-white  cursor-pointer"
-  href=""
+  href="https://poocoin.app/tokens/0x475c8df9860e42605d9917f0a2e522cc861cbf82"
+  target="_blank"
+        rel="noreferrer"
   style={{pointerEvents:"auto"}}
   >LIVE CHARTS</a>
   </div>
   <div className="xl:hidden"  style={{pointerEvents:"auto"}}>
   {/* <Social/> */}
   </div>
- 
-  
+  <section className="flex mt-4"  style={{pointerEvents:"auto"}}
+  >
+    <div className="mr-4 p-5 rounded text-center"
+    onClick={()=>window.open('https://scorpfolio.scorpion-finance.com/','_blank')}
+    >
+      <span className="gr-text font-bold">ScorpFolio</span>  <br />
+    
+     <span className="glow text-white"> LIVE NOW</span>
+    
+    
+      
+     <div className="gr-bg text-white px-3 py-1 mt-2 rounded cursor-pointer  text-xs lg:text-base"> Track Your Assets</div>
+    </div>
+    <div className="p-5 rounded text-center"
+    onClick={()=>window.open('https://exchange.scorpion-finance.com/#/swap','_blank')}
+    >
+      <span className="gr-text font-bold">ScorpSwap</span> <br />
+      <span className="glow"> LIVE NOW </span>
+     
+     <div className="gr-bg text-white px-3 py-1 mt-2 rounded cursor-pointer text-xs lg:text-base">
+     Trade Your Assets
+     </div>
+    </div>
+
+  </section>
+ {/* DASHBOARD SECTION */}
+<section className="flex justify-center w-8/12 mt-4"
+ style={{pointerEvents:"auto"}}
+>
+  <button
+  className="gr-bg p-4 rounded font-bold button-glow "
+  style={{pointerEvents:"auto"}}
+  onClick={()=>window.open('https://rewards.scorpion-finance.com/rewards.html','_blank')}
+  >CLAIM REWARDS</button>
+  </section>  
 
 
   </div>
  
   <div className="anim-item flex justify-center" >
  
-    <img src="/img/scorpfin.png" className="w-8/12 mt-20 lg:mt-0 xl:w-10/12" data-aos="fade-left"  data-aos-delay="500" alt="" />
+    <img src="/img/scorpfin.png" className="hidden lg:block w-8/12 mt-16 lg:mt-0 xl:w-10/12" 
+     alt="" />
    
   </div>
  

@@ -13,9 +13,7 @@ const FeaturesSlide = () => {
 "Anti-Dump",
     ];
     return (
-       
-           <div className="flex justify-center "
->
+<div className="flex justify-center ">
 <Marquee
 gradientColor={[21, 27, 40]}
 speed={30}

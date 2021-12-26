@@ -4,17 +4,20 @@ import Social from "./Social"
 const NavBar = () => {
     const [navbar, setNavbar] = useState(false);
     const navItems = [
-        {"title":"Why Scorp Fin", "to":"#why"},
+        // {"title":"Why Scorp Fin", "to":"#why"},
         {"title":"Products", "to":"#products"},
         {"title":"Buy Now", "to":"#buy"},
+        {"title":"Dashboard", "to":"https://rewards.scorpion-finance.com/"},
         {"title":"Tokenomics", "to":"#tokenomics"},
+        {"title":"Our Team", "to":"https://scorpion-finance.com/our-team/"},
         
     ];
     return (<div className="fixed top-0 z-40   w-full">
     
         <nav className="flex px-2 pr-4 xl:px-48 lg:px-32 py-2 justify-between"
         style={{
-            background:'rgb(21,27,40)'
+            background:'rgb(21,27,40)',
+            height:'80px'
         }}
         >
             <div className="flex">
@@ -29,7 +32,9 @@ const NavBar = () => {
                     return (
                         <a 
                         key={navItems.indexOf(item)}
-                        href={item.to} className="mx-4 menu-item">{item.title.toUpperCase()}</a>
+                        target={item.to.includes("https")?"_blank":"_self"}
+                        rel="noreferrer"
+                        href={item.to} className="mx-4 menu-item text-sm">{item.title.toUpperCase()}</a>
                     )
                 })
             }
@@ -61,8 +66,10 @@ const NavBar = () => {
                             <a 
                             key={navItems.indexOf(item)}
                             href={item.to} 
+                             target={item.to.includes("https")?"_blank":"_self"}
+                        rel="noreferrer"
                             onClick={() =>setNavbar(false)}
-                            className="block px-4 py-2 hover:bg-gray-500">
+                            className="block px-4 py-2 hover:bg-gray-500 text-xs">
                                 {item.title.toUpperCase()}</a>
                         )
                     }) 
